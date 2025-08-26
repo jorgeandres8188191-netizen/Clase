@@ -2,7 +2,7 @@
 //estas son las clases
 public class Clientes
 {
-    public int Id { get; set; }
+    public int Id;
     public string? Nombre { get; set; }
     public DateTime? FechaNacimiento { get; set; }
     public string? Documento { get; set; }
@@ -13,14 +13,14 @@ public class Clientes
 
 public class EstadosHabitaciones
 {
-    public int Id { get; set; }
+    public int Id;
     public string? Descripcion { get; set; }
     public bool? PermiteReserva { get; set; }
 }
 
 public class TiposHabitaciones
 {
-    public int Id { get; set; }
+    public int Id;
     public string? Nombre { get; set; }
     public string? Descripcion { get; set; }
     public int? CapacidadMaxima { get; set; }
@@ -29,7 +29,7 @@ public class TiposHabitaciones
 
 public class Habitaciones
 {
-    public int Id { get; set; }
+    public int Id;
     public int? TipoHabitacionId { get; set; }
     public TiposHabitaciones? Tipo { get; set; }
     public int? EstadoHabitacionId { get; set; }
@@ -40,7 +40,7 @@ public class Habitaciones
 
 public class Servicios
 {
-    public int Id { get; set; }
+    public int Id;
     public string? Nombre { get; set; }
     public string? Descripcion { get; set; }
     public string? Categoria { get; set; }
@@ -49,13 +49,13 @@ public class Servicios
 
 public class EstadosReservas
 {
-    public int Id { get; set; }
+    public int Id;
     public string? Descripcion { get; set; }
 }
 
 public class Reservas
 {
-    public int Id { get; set; }
+    public int Id;
     public int? ClienteId { get; set; }
     public Clientes? Cliente { get; set; }
     public int? EstadoReservaId { get; set; }
@@ -71,7 +71,7 @@ public class Reservas
 
 public class Acompanantes
 {
-    public int Id { get; set; }
+    public int Id;
     public int? ReservaId { get; set; }
     public Reservas? Reserva { get; set; }
     public string? Nombre { get; set; }
@@ -82,7 +82,7 @@ public class Acompanantes
 
 public class DetallesReservas
 {
-    public int Id { get; set; }
+    public int Id;
     public int? ReservaId { get; set; }
     public Reservas? Reserva { get; set; }
     public int? HabitacionId { get; set; }
@@ -95,7 +95,7 @@ public class DetallesReservas
 
 public class DetallesServicios
 {
-    public int Id { get; set; }
+    public int Id;
     public int? ReservaId { get; set; }
     public Reservas? Reserva { get; set; }
     public int? ServicioId { get; set; }
@@ -109,7 +109,7 @@ public class DetallesServicios
 
 public class MetodosPago
 {
-    public int Id { get; set; }
+    public int Id;
     public string? Nombre { get; set; } 
     public string? Descripcion { get; set; }
     public bool? RequiereValidacion { get; set; }
@@ -118,7 +118,7 @@ public class MetodosPago
 
 public class DetallesPago
 {
-    public int Id { get; set; }
+    public int Id;
     public int? FacturaId { get; set; }
     public Facturas? Factura { get; set; }
     public int? MetodoPagoId { get; set; }
@@ -134,7 +134,7 @@ public class DetallesPago
 
 public class Facturas
 {
-    public int Id { get; set; }
+    public int Id;
     public int? ReservaId { get; set; }
     public Reservas? Reserva { get; set; }
     public string? Codigo { get; set; }
@@ -150,6 +150,6 @@ public class Facturas
 
 public class EstadosFacturas
 {
-    public int Id { get; set; }
+    public int Id;
     public string? Descripcion { get; set; }
 }
