@@ -1,5 +1,5 @@
 ﻿Console.WriteLine("Funciona");
-
+//estas son las clases
 public class Clientes
 {
     public int Id { get; set; }
