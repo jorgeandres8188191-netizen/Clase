@@ -1,0 +1,15 @@
+/home/jorge/Clase/cns_presentation/bin/Debug/net9.0/cns_presentation
+/home/jorge/Clase/cns_presentation/bin/Debug/net9.0/cns_presentation.deps.json
+/home/jorge/Clase/cns_presentation/bin/Debug/net9.0/cns_presentation.runtimeconfig.json
+/home/jorge/Clase/cns_presentation/bin/Debug/net9.0/cns_presentation.dll
+/home/jorge/Clase/cns_presentation/bin/Debug/net9.0/cns_presentation.pdb
+/home/jorge/Clase/cns_presentation/obj/Debug/net9.0/cns_presentation.GeneratedMSBuildEditorConfig.editorconfig
+/home/jorge/Clase/cns_presentation/obj/Debug/net9.0/cns_presentation.AssemblyInfoInputs.cache
+/home/jorge/Clase/cns_presentation/obj/Debug/net9.0/cns_presentation.AssemblyInfo.cs
+/home/jorge/Clase/cns_presentation/obj/Debug/net9.0/cns_presentation.csproj.CoreCompileInputs.cache
+/home/jorge/Clase/cns_presentation/obj/Debug/net9.0/cns_presentation.sourcelink.json
+/home/jorge/Clase/cns_presentation/obj/Debug/net9.0/cns_presentation.dll
+/home/jorge/Clase/cns_presentation/obj/Debug/net9.0/refint/cns_presentation.dll
+/home/jorge/Clase/cns_presentation/obj/Debug/net9.0/cns_presentation.pdb
+/home/jorge/Clase/cns_presentation/obj/Debug/net9.0/cns_presentation.genruntimeconfig.cache
+/home/jorge/Clase/cns_presentation/obj/Debug/net9.0/ref/cns_presentation.dll

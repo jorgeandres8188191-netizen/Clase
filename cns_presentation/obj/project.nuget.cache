@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "KUHXjujnIKY=",
+  "success": true,
+  "projectFilePath": "/home/jorge/Clase/cns_presentation/cns_presentation.csproj",
+  "expectedPackageFiles": [
+    "/home/jorge/.nuget/packages/microsoft.aspnetcore.app.ref/9.0.8/microsoft.aspnetcore.app.ref.9.0.8.nupkg.sha512"
+  ],
+  "logs": []
+}
